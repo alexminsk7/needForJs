@@ -1,1 +1,1 @@
-Режим вывода команд на экран (ECHO) включен.
+my study project is race on js
