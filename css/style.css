@@ -24,7 +24,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+   line-height: 1;
+   font-family: consolas, sans-serif;
+   font-weight: 700;
 }
 ol, ul {
 	list-style: none;
@@ -40,9 +42,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-body {
-   background: lightcyan;
 }
 .hide {
    display: none;
@@ -69,4 +68,30 @@ body {
    height: 50px;
    background: #fff;
    left: 145px;
+}
+.start {
+   position: absolute;
+   left: 1rem;
+   top: 8rem;
+   width: 20%;
+   margin: 0;
+   padding: 1rem 0;
+   text-align: center;
+   z-index: 100;
+   color: #000;
+   background: yellow;
+   cursor: pointer;
+}
+.score {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, .3);
+   padding: 2rem 0;
+   z-index: 100;
+   font-size: 1.5rem;
+   color: yellow;
+   text-align: center;
+   font-weight: 500;
 }
